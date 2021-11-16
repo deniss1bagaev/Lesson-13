@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+a:link{
+    color: blue;
+}
+.red-input:focus{
+   color: red;
+   width: 100px;
+}
+p:first-child{
+    color: rgb(0, 255, 110);
+    background-color: black;
+    padding: 5px;
+}
+li:last-child{
+    background-color: rgb(252, 84, 84);
+}
+span:only-child{
+    color: royalblue;
+}
+div.menu-bar ul ul{
+    display: none;
+}
+div.menu-bar li:hover > ul{
+    display: block;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
